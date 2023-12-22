@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,300&display=swap');
 body{
     padding: 0;
     margin: 0;
-    background: linear-gradient(white,wheat,orange);
+    background: linear-gradient(white,pink, purple);
+    background-repeat: no-repeat;
     padding-bottom: 100px;
+    font-family: 'Noto Serif', serif;
+    height: 700px;
 }
 
 .menu{
@@ -12,8 +16,7 @@ body{
     flex-direction: column;
     gap: 40px;
     width: 600px;
-    margin: 0 auto;
-   
+    margin: 0 auto;   
 }
 .text{
     text-align: center;
@@ -25,18 +28,18 @@ body{
     flex-wrap: wrap;
     gap: 20px;
     position: relative;
+    padding-top: 20px;
 }
 .main_conteiner{
-    /* background-color: rgb(209, 245, 179); */
     border: 1px solid black;
     border-radius: 10%;
 }
 .main_item{
-    width: 100px;
+    width: 90px;
     height: 150px;
-    border: 1px solid black;
+    border: 2px solid rgb(145, 95, 145);
     border-radius: 10%;
-    background-color: wheat;
+    background-color: rgb(203, 125, 138);
     text-align: center;
 }
 .victory{
